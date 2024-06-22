@@ -1,0 +1,38 @@
+/* styles.css */
+body {
+    background-color: #E0F2E9; /* Light green background */
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 20px;
+    background-color: #ffffff; /* White content container */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+h1 {
+    font-size: 24px;
+    color: #556B2F; /* Darker shade of olive green for heading text */
+    margin-bottom: 20px;
+}
+p {
+    font-size: 16px;
+    color: #333; /* Dark gray for paragraph text */
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6B8E23; /* Lighter and vibrant olive green for buttons */
+    color: #ffffff; /* White text for contrast on buttons */
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #556B2F; /* Darker olive green on hover */
+}
